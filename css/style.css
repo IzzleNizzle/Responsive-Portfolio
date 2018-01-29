@@ -1,0 +1,189 @@
+html, body {
+    height: 100%;
+    background-image: url("../images/dust_scratches.png");
+}
+
+body {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #ffffff;
+    border-bottom: solid #cccccc 1px;
+    float: left;
+    width: 960px;
+    margin-left: 200px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+#isaac {
+    font-weight: bold;
+    font-size: 25px;
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 25px;
+}
+
+nav {
+    float: right;
+    margin-top: 25px;
+}
+
+#mainContent {
+    background-color: #ffffff;
+    width: 650px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 200px;
+    border: solid #dddddd 1px;
+}
+
+#aboutMe {
+    border-bottom: solid #cccccc 1px;
+    padding: 25px;
+    margin: 0px;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+figure {
+    margin: 0px;
+}
+
+#amber {
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+#amberp {
+    height: 200px;
+    width: 285px;
+    float: left;
+}
+#amber1 {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 20px 18px 0px 25px;
+}
+
+p {
+   margin: 20px 25px;
+}
+
+#connectWithMe {
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: #ffffff;
+    width: 270px;
+    border: solid #dddddd 1px;
+}
+
+#connect {
+    margin: 0px;
+    color: #4aaaa5;
+    border-bottom: solid #cccccc 1px;
+    padding: 25px;
+}
+
+#icon {
+    width: 70px;
+    height: 70px;
+}
+
+#icons {
+    margin: 25px;
+}
+
+.footer {
+    background-color: #666666;
+    text-align: center;
+    color: #ffffff;
+    padding: 25px;
+    border-top: solid 7px #4aaaa5;
+    margin-top: 25px;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+form { 
+    margin: 25px 0px 25px 25px;
+}
+
+textarea {
+    -webkit-appearance: textfield;
+    width: 605px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 6px 15px;
+}
+
+#nav1 {
+    border-right: solid #cccccc 1px;
+    padding: 6px 15px;
+}
+
+#nav2 {
+    padding: 6px 15px;
+}
+.clear {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.thumbnail-left {
+    float: left;
+    position: relative;
+    height: 200px;    
+    width: 285px;
+    margin: 25px 15px 25px 25px;
+}
+
+.thumbnail-right {
+    float: left;
+    position: relative;
+    height: 200px;    
+    width: 285px;
+    margin: 25px 25px 25px 15px;
+}
+
+.hangman {
+    position: absolute;
+    background-color: #a57575;
+    width: 285px;
+    height: 25px;
+    bottom: 25px;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+}
+
+.hangman2 {
+    position: absolute;
+    background-color: #a57575;
+    width: 285px;
+    height: 25px;
+    bottom: 25px;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+}
+
+#amberp:hover ~ .hangman2 {
+    background-color: #79a575;
+}
+
+#suck {
+
+    margin: 3px 0px 25px 25px;
+}
