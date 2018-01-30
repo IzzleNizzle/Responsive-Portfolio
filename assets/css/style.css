@@ -197,8 +197,29 @@ textarea {
     background-color: #79a575;
 }
 
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+
+#contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+
 @media screen and (max-width: 980px) {
     .container {
+        max-width: 768px;
+    }
+    .contentContainer {
         max-width: 768px;
     }
     #mainContent {
@@ -213,7 +234,7 @@ textarea {
     }
     .contentContainer {
         /* width: 100%; */
-        padding: 20px;
+        /* padding: 20px; */
     }
     #mainContent {
         max-width: 768px;
@@ -225,8 +246,25 @@ textarea {
         width: 100%;
         /* margin: 25px; */
     }
+    .thumbnail-right {
+        width: 260px;
+    }
+    .thumbnail-left {
+        width: 260px;
+    }
 }
 
 @media screen and (max-width: 640px) {
-    
+    #isaac {
+        max-width: 768px;
+        width: 100%;
+        text-align: center;
+        /* margin: 25px; */
+    }
+    nav {
+        max-width: 768px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 25px;
+    }
 }
